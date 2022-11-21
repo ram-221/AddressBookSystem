@@ -74,12 +74,13 @@ public class AddressBook {
 					arrayDetails.get(i).setPhoneNumber(scan.nextLong());
 					break;
 				default:
+					System.out.println("Enter valid first name: ");
 				}
-				System.out.println("Edited list is: ");
-				System.out.println(arrayDetails);
+				
 			}
 			else
-				System.out.println("Enter valid first name: ");
+				System.out.println("Edited list is: ");
+			System.out.println(arrayDetails);
 		}
 	}
 
